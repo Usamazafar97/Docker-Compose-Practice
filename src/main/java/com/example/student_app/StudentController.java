@@ -24,6 +24,7 @@ public class StudentController {
         student.setName("usama");
         student.setAge(25);
 
+        // save the record to the DB
         studentRepo.save(student);
     }
 }
